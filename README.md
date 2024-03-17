@@ -8,3 +8,6 @@ ollama list
 
 List of possible commands:
 ollama --help
+
+Run an installed model:
+ollama run <installed model name>
