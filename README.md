@@ -1,3 +1,15 @@
+# Installing Ollama and LLM to your Pi
+
+Update and upgrade the OS:
+sudo apt update
+sudo apt upgrade
+
+Install Ollama software:
+curl -fsSL https://ollama.com/install.sh | sh
+
+Pull Large Language model:
+ollama run <model name>
+
 # OLLAMA_Commands
 
 Check if OLLAMA is running:
